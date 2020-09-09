@@ -1,0 +1,30 @@
+
+//Brand colors
+$black: #000;
+$white: #fff;
+$systemOrange: #FF9F0A;
+$systemBlue: #0A84FF;
+$systemGrey: #636366;
+
+//Light Mode
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: black;
+  }
+}
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: white;
+    }
+}
